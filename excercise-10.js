@@ -3,6 +3,11 @@
 function changeMe(arr) {
     // you can only write your code here!
 
+//jika array isinya kosong maka hasilnya ''
+if(!arr[0]){
+  return ''
+}
+    
 //buat variabel untuk menyimpan nama lengkap
 var namaLengkap = '';
 //buat variable untuk menyimpan nomor urut
