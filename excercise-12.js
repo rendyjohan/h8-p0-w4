@@ -7,6 +7,11 @@ let listBarang = [
     ['Sweater Uniklooh', 175000, 1]
     ];
 // you can only write your code here!
+    
+//jika shoopers isinya kosong maka hasilnya []
+if(!shoppers[0]){
+    return '[]'
+}
 
 // buat variable jumlah barang
 var jumlahSepatu = listBarang[0][2];
