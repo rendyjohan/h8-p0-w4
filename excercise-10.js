@@ -7,7 +7,11 @@ function changeMe(arr) {
 if(!arr[0]){
   return ''
 }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 731c5607459284e2fc4fda9fb90cdb4548bd9bb1
 //buat variabel untuk menyimpan nama lengkap
 var namaLengkap = '';
 //buat variable untuk menyimpan nomor urut
