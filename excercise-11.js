@@ -3,12 +3,12 @@
 function shoppingTime(memberId, money) {
     // you can only write your code here!
 
-//buat variabel yang isinya array sesuai dengan permintaan soal, tentukan harga secara asal dgn kondisi hasil kembalian sesuai dengan soal
+//buat variabel yang isinya array sesuai dengan permintaan soal
 var jenisBarang = [
-  ['Sepatu Stacattu', 700000], 
-  ['Baju Zoro', 600000], 
-  ['Baju H&M', 500000], 
-  ['Sweater Unikloh', 675000], 
+  ['Sepatu Stacattu', 15000000], 
+  ['Baju Zoro', 500000], 
+  ['Baju H&M', 250000], 
+  ['Sweater Unikloh', 175000], 
   ['Casing Handphone', 50000]
 ];
 //buat variabel tampung
