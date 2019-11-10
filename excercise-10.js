@@ -3,6 +3,11 @@
 function changeMe(arr) {
     // you can only write your code here!
 
+//jika array isinya kosong maka hasilnya ''
+if(!arr[0]){
+  return ''
+}
+
 //buat variabel untuk menyimpan nama lengkap
 var namaLengkap = '';
 //buat variable untuk menyimpan nomor urut
@@ -28,7 +33,7 @@ for(var i=0; i < arr.length; i++){
   objInitial.gender = arr[i][2];
   // console.log(arr[i][2])
   //buat objek array dengan age dan tentukan lokasi array nya
-  objInitial.age = arr[i][3];
+  objInitial.age = 2019-arr[i][3];
   // console.log(arr[i][3])
     //buat kondisi jika objek age hasilnya undefined
     if(arr[i][3] === undefined){
